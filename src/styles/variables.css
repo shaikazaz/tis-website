@@ -1,0 +1,36 @@
+:root {
+  /* Colours – navy and warm yellow, inspired by the TIS yellow accent line */
+  --color-navy: #0b1f3a;
+  --color-navy-soft: #16305a;
+  --color-gold: #f2b705;
+  --color-ivory: #faf7f0;
+  --color-tint: #f1ecdf;
+  --color-ink: #14213d;
+  --color-muted: #55607a;
+  --color-line: rgba(20, 33, 61, 0.14);
+  --color-white: #ffffff;
+
+  /* Typography */
+  --font-display: 'Fraunces', Georgia, 'Times New Roman', serif;
+  --font-body: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --text-sm: 0.875rem;
+  --text-base: clamp(1rem, 0.96rem + 0.2vw, 1.125rem);
+  --text-lg: clamp(1.125rem, 1.05rem + 0.4vw, 1.375rem);
+  --text-h3: clamp(1.25rem, 1.15rem + 0.5vw, 1.5rem);
+  --text-h2: clamp(1.9rem, 1.3rem + 3vw, 3.5rem);
+  --text-h1: clamp(2.5rem, 1.5rem + 5.5vw, 6rem);
+
+  /* Spacing */
+  --space-1: 0.5rem;
+  --space-2: 1rem;
+  --space-3: 1.5rem;
+  --space-4: 2.5rem;
+  --space-5: clamp(3.5rem, 2rem + 6vw, 7rem);
+  --gutter: clamp(1.25rem, 0.5rem + 3.5vw, 3rem);
+
+  /* Layout */
+  --container: 1240px;
+  --nav-height: 72px;
+  --radius: 4px;
+  --transition: 0.3s ease;
+}
